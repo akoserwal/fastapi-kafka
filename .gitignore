@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# ---- Docker ----
+# Local override files & logs
+docker-compose.override.yml
+*.log
+
+# Kafka data volumes (if accidentally created on host)
+/kafka-data/
+/zookeeper-data/
+
+# ---- Editor & OS artifacts ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Misc ----
+*.swp 
